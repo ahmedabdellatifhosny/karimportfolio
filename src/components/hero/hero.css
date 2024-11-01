@@ -1,0 +1,158 @@
+.hero {
+  position: relative;
+  margin-top: 37px;
+  padding: 5px 0 100px 0;
+  text-transform: capitalize;
+}
+.hero .stroke-text h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  font-size: 180px;
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  z-index: 1;
+  transform: rotate(3deg);
+  z-index: -1;
+}
+@keyframes slideTransition {
+  from {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+.hero img {
+  margin-top: 20px;
+  box-shadow: 0 20px 76px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+  animation: slideTransition 2s ease-in-out infinite alternate;
+  -webkit-animation: slideTransition 2s ease-in-out infinite alternate;
+  border: 1px solid #2a1454;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  cursor: pointer;
+}
+.hero .info .header-title {
+  width: 108%;
+}
+.hero .info .lead {
+  margin-top: 32px;
+}
+.hero .info .lead p {
+  width: 100%;
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 300;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+.hero .info ul li .fa-facebook,
+.hero .info ul li .fa-linkedin-in,
+.hero .info ul li .fa-dribbble,
+.hero .info ul li .fa-github {
+  color: #2a1454;
+  border: 1px solid #8750f7;
+  color: #8750f7;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
+.hero .info ul li .fa-facebook:hover,
+.hero .info ul li .fa-linkedin-in:hover,
+.hero .info ul li .fa-dribbble:hover,
+.hero .info ul li .fa-github:hover {
+  background-color: #8750f7;
+  color: #fff;
+}
+.hero .info ul .fa-whatsapp {
+  font-size: 18px;
+}
+.hero .info .cv {
+  background: transparent;
+  color: #8750f7;
+  text-transform: capitalize;
+  border: 1px solid #8750f7;
+  padding: 15px 35px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
+.hero .info .cv:hover {
+  background-color: #8750f7;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .hero .info .header-title {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 150px;
+  }
+  .hero .info h2 {
+    top: 83% !important;
+    left: 7% !important;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+  }
+  .hero ul {
+    gap: 0.7rem !important;
+  }
+  .hero .stroke-text h2 {
+    top: 83% !important;
+    left: 7% !important;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero .info .header-title {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 150px;
+  }
+  .hero .stroke-text h2 {
+    left: 30% !important;
+  }
+}/*# sourceMappingURL=hero.css.map */

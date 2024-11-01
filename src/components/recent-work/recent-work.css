@@ -1,0 +1,178 @@
+.my-recent-work {
+  padding-bottom: 30px;
+  transition: all ease-in-out 1s;
+}
+.my-recent-work .work-header h2 {
+  display: inline-flex;
+  background: linear-gradient(to right, #8750f7 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.my-recent-work .btn {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, #110819 0%, #251540 100%);
+  transition: background 1s ease-in-out;
+  -webkit-transition: background 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out;
+  -ms-transition: background 1s ease-in-out;
+  -o-transition: background 1s ease-in-out;
+  z-index: 2;
+  margin: 5px 0;
+  border-color: #8750f7;
+  border-width: thin;
+}
+.my-recent-work .btn:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  background: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: width 1s ease;
+  -webkit-transition: width 1s ease;
+  -moz-transition: width 1s ease;
+  -ms-transition: width 1s ease;
+  -o-transition: width 1s ease;
+}
+.my-recent-work .btn:hover:before {
+  width: 100%;
+}
+.my-recent-work .active {
+  background: linear-gradient(to left, #8750f7 0%, #2a1454 100%);
+}
+.my-recent-work .projects .project-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  line-height: 0.5;
+  cursor: pointer;
+}
+.my-recent-work .projects .project-box img {
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.my-recent-work .projects .project-box .img-thumbnail {
+  background: linear-gradient(to left, #8750f7 0%, #2a1454 100%);
+  border: 0;
+  padding: 5px;
+}
+.my-recent-work .projects .project-box .project-details {
+  position: absolute;
+  bottom: 15%;
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #0f0715, #281745);
+  padding: 15px 15px 5px 15px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-transform: capitalize;
+  box-shadow: 0px 0 5px #ccc;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+.my-recent-work .projects .project-box .project-details.show {
+  max-height: 200px;
+  opacity: 1;
+  transform: translateY(0);
+}
+.my-recent-work .projects .project-box .project-details:hover {
+  -o-border-image: linear-gradient(to right, #8750f7, #2a1454) 1;
+     border-image: linear-gradient(to right, #8750f7, #2a1454) 1;
+}
+.my-recent-work .projects .project-box .project-details h5 {
+  font-size: 16px;
+  display: inline-flex;
+  background: linear-gradient(to right, #8750f7 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.my-recent-work .projects .project-box .stores {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-recent-work .projects .project-box .stores .fa-google-play {
+  font-size: 22px;
+  background: transparent;
+  color: #4db6ac;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #8750f7;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+.my-recent-work .projects .project-box .stores .fa-google-play:hover {
+  background: #8750f7;
+  color: #ccc;
+}
+.my-recent-work .projects .project-box .stores .fa-app-store-ios {
+  font-size: 22px;
+  background: transparent;
+  color: #0091ea;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #8750f7;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+.my-recent-work .projects .project-box .stores .fa-app-store-ios:hover {
+  background: #8750f7;
+  color: #ccc;
+}
+
+@media (max-width: 767px) {
+  .my-recent-work .work-header h2 {
+    font-size: 45px;
+  }
+}/*# sourceMappingURL=recent-work.css.map */

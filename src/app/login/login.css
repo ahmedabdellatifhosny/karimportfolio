@@ -1,0 +1,74 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login .login-header p {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.login form {
+  border: 1px solid;
+  -o-border-image: linear-gradient(to left, #8750f7, #2a1454) 1;
+     border-image: linear-gradient(to left, #8750f7, #2a1454) 1;
+  padding: 20px;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+.login form:hover {
+  -o-border-image: linear-gradient(to right, #8750f7, #2a1454) 1;
+     border-image: linear-gradient(to right, #8750f7, #2a1454) 1;
+}
+.login form label {
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.login form .form-control {
+  width: 300px;
+  background: transparent;
+  color: #ddd;
+  text-transform: capitalize;
+  padding: 15px 25px;
+  border: 1px solid #8750f7;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.login form .form-control::-moz-placeholder {
+  color: #ccc;
+}
+.login form .form-control::placeholder {
+  color: #ccc;
+}
+.login form .form-control:focus {
+  box-shadow: none;
+}
+.login form .form-check-input:checked {
+  background-color: #7746dc;
+}
+.login form .btn-primary {
+  width: 140px;
+  background-image: linear-gradient(to right, #8750f7, #2a1454);
+  text-transform: capitalize;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,36 @@
+.langs {
+  position: fixed;
+  bottom: 30px;
+  left: -10px;
+  background: #25153f;
+  padding: 10px 10px 10px 20px;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgba(155, 109, 248, 0.2392156863);
+  border-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  z-index: 9999;
+  transition: all 0.5s ease-in-out !important;
+}
+.langs:hover {
+  left: 0;
+}
+.langs .ar,
+.langs .en {
+  display: none;
+}
+.langs .ar.active,
+.langs .en.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.langs .ar img,
+.langs .en img {
+  margin-left: 10px;
+  margin-right: 10px;
+}/*# sourceMappingURL=languages.css.map */

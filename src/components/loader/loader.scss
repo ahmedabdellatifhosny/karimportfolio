@@ -1,0 +1,35 @@
+.loader-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  width: 101%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  .loader {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+    background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+    display: flex;
+    gap: 14px;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .loader-image {
+      width: 80px;
+
+      img {
+        box-shadow: 0 0 11px 0 #24153e;
+        border-radius: 50%;
+      }
+    }
+    .ani-text {
+      min-width: 250px;
+    }
+  }
+}

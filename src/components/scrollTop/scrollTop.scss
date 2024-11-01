@@ -1,0 +1,12 @@
+.scroll{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 9999;
+    cursor: pointer;
+    .fa-arrow-up{
+        background: #8750f7;
+        border-radius: 50%;
+        padding: 9px 11px;
+    }
+}

@@ -1,0 +1,49 @@
+.navbar .navbar-nav {
+  margin-right: 36% !important;
+}
+.navbar .navbar-brand img {
+  margin-left: 10px;
+}
+
+.quality-service .box-description p {
+  text-align: right;
+}
+
+.education h3,
+.education .year,
+.education h6 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact ul .info-contact {
+  margin-right: 10px;
+}
+.contact .phone-nmber-details {
+  direction: ltr;
+}
+
+.education .education-header span {
+  margin-right: 15px;
+}
+
+.footer .navbar .navbar-nav {
+  margin-right: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav {
+    margin-right: auto !important;
+  }
+  .navbar .navbar-brand img {
+    margin-left: 10px;
+  }
+  .navbar .navbar-brand .nav-title {
+    font-size: 10px !important;
+  }
+  .navbar .navbar-brand .nav-link {
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=rtl.css.map */

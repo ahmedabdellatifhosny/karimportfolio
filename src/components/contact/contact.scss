@@ -1,0 +1,104 @@
+.contact {
+  background-color: #050709;
+  padding: 50px 0 100px 0;
+
+  .contact-data{
+    margin-top: 30px;
+    padding: 30px 0 0 0;
+  }
+
+  .send-mail {
+    background-color: rgb(43, 19, 63);
+    border-radius: 10px;
+    min-height: 550px;
+    padding: 40px;
+    
+    
+    h2 {
+        display: inline-flex;
+        background: linear-gradient(to right, #8750f7 0%, #fff 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 55px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      p{
+        color: #ccc;
+        font-size: 20px;
+      }
+
+    .form-control {
+        height: 60px;
+        background: #050709;
+        border: 0;
+        resize: none;
+        margin: 10px 0px;
+        padding-left: 15px;
+        color: #fff;
+        
+        &:focus{
+            box-shadow: none;
+            border: 1px solid #6f43c7   ;
+          }
+      &::placeholder {
+        color: #ccc;
+      }
+    }
+    textarea{
+        height: 200px !important;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .btn {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      background: linear-gradient(to left, #8750f7 0%, #2a1454 100%);
+      border: none;
+      transition: all ease-in-out 1s;
+      display: block;
+        height: 50px;
+      &:hover {
+        background: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
+      }
+    }
+  }
+  ul {
+    li {
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 22px;
+
+        .icon {
+          margin-right: 40px;
+          background: #8750f7;
+          padding: 6px 10px;
+          border-radius: 50%;
+          .fa-location-dot {
+            padding: 0 2px;
+          }
+        }
+      }
+    }
+    .info-contact {
+      width: 50%;
+      cursor: pointer;
+      transition: all ease-in-out .5s;
+      &:hover{
+        color: #6f43c7;
+      }
+       .info-title{
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #8750f7;
+      }
+    }
+  }
+}
