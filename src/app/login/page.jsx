@@ -3,7 +3,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-import "@/app/login/login.css";
+import "../../app/login/login.css";
 
 function login() {
   return (
