@@ -1,8 +1,7 @@
 import Image from "next/image";
-import "@/helpers/plugins";
 import { TypeAnimation } from "react-type-animation";
 
-import "@/components/loader/loader.css";
+import "../loader/loader.css";
 
 function Loader() {
     

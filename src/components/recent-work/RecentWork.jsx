@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGooglePlay, faAppStoreIos } from '@fortawesome/free-brands-svg-icons';
 
-import "@/components/recent-work/recent-work.css";
+import "../recent-work/recent-work.css";
 import { useTranslation } from "react-i18next";
 
 function MyRecentWork() {

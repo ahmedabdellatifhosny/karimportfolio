@@ -4,7 +4,7 @@ import AOS from 'aos';
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import "@/components/footer/footer.css";
+import "../footer/footer.css";
 
 
 

@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import AOS from "aos";
 
 // استيراد الاستايلات الأساسية فقط
-import "@/components/languages/languages.css";
+import "../languages/languages.css";
 
 function Languages() {
   const [isArabic, setIsArabic] = useState(false);
@@ -21,9 +21,9 @@ function Languages() {
   useEffect(() => {
     const loadStyle = async () => {
       if (isArabic) {
-        await import("@/app/sass-globals/rtl/rtl.css");
+        await import("../../app/sass-globals/rtl/rtl.css");
       } else {
-        await import("@/app/sass-globals/globals.css");
+        await import("../../app/sass-globals/globals.css");
       }
     };
     loadStyle();

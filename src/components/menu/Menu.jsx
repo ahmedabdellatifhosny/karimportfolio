@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Image from "next/image";
-import "@/components/menu/menu.css";
+import "../menu/menu.css";
 import { useTranslation } from "react-i18next";
 
 function Menu() {

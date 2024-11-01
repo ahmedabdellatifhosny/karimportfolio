@@ -1,5 +1,5 @@
 "use client"
-import "@/components/skills/skills.css";
+import "../skills/skills.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import AOS from 'aos';

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
-import "@/components/education/education.css";
+import "../education/education.css";
 import { Col, Container, Row } from "react-bootstrap";
 
 import AOS from "aos";

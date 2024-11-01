@@ -1,5 +1,5 @@
 import { useState , useEffect } from "react";
-import "@/components/quality-service/quality-service.css";
+import "../quality-service/quality-service.css";
 import AOS from 'aos';
 import { useTranslation } from 'react-i18next';
 

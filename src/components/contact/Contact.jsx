@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 
 import AOS from "aos";
 
-import "@/components/contact/contact.css";
+import "../contact/contact.css";
 
 import { useTranslation } from "react-i18next";
 

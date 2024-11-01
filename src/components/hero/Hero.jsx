@@ -12,7 +12,7 @@ import React, { useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 
-import "@/components/hero/hero.css";
+import "../hero/hero.css";
 import { useTranslation } from 'react-i18next';
 
 function Hero() {
